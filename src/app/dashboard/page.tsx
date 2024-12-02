@@ -1,28 +1,6 @@
-import classNames from 'classnames';
-
-import applianceData from '../../data/PGS930YPFS.json';
 import Link from 'next/link';
 
-const getTextColorFromCategory = (category: string) => {
-  switch (category) {
-    case 'care':
-      return 'text-blue-500';
-    case 'support':
-      return 'text-green-500';
-    case 'safety':
-      return 'text-pink-500';
-    case 'cleaning':
-      return 'text-yellow-500';
-    case 'maintenance':
-      return 'text-purple-500';
-    case 'emergency':
-      return 'text-red-500';
-    case 'contact':
-      return 'text-indigo-500';
-    default:
-      return 'text-gray-500';
-  }
-};
+import applianceData from '../../data/PGS930YPFS.json';
 
 export default function Dashboard() {
   const { metadata, optimal_care, support, safety, cleaning, maintenance } =
