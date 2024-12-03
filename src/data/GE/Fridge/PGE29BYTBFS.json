@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "model_numbers": ["PGD", "PGE", "PJD", "PJE", "PAD", "PAE", "PHD"],
+    "manufacturer": "GE Appliances",
+    "category": "refrigerator",
+    "website": "GEAppliances.com"
+  },
+  "optimal_care": [
+    {
+      "page_number": 20,
+      "description": "Keep the refrigerator leveled to ensure proper door alignment and closure",
+      "category": "maintenance"
+    },
+    {
+      "page_number": 13,
+      "description": "Replace water filter every six months or when flow decreases",
+      "category": "maintenance"
+    },
+    {
+      "page_number": 19,
+      "description": "Throw away first 24 hours of ice production to avoid odor and taste problems",
+      "category": "maintenance"
+    },
+    {
+      "page_number": 20,
+      "description": "Clean interior/exterior surfaces with warm water, mild soap and soft cloth",
+      "category": "care"
+    },
+    {
+      "page_number": 21,
+      "description": "Keep ventilation openings clear of obstruction",
+      "category": "maintenance"
+    },
+    {
+      "page_number": 8,
+      "description": "Maintain recommended temperature settings: 37°F (3°C) for refrigerator and 0°F (-18°C) for freezer",
+      "category": "maintenance"
+    },
+    {
+      "page_number": 14,
+      "description": "Properly organize items in climate zones for optimal preservation",
+      "category": "care"
+    }
+  ],
+  "support": [
+    {
+      "page_number": 52,
+      "description": "Contact GE Appliances Website: GEAppliances.com (US) or GEAppliances.ca (Canada)",
+      "category": "contact"
+    },
+    {
+      "page_number": 52,
+      "description": "Call 800.432.2737 (US) or 800.561.3344 (Canada) for service",
+      "category": "contact"
+    },
+    {
+      "page_number": 52,
+      "description": "Parts and accessories: GEApplianceparts.com or call 877.959.8688",
+      "category": "contact"
+    }
+  ],
+  "safety": [
+    {
+      "page_number": 3,
+      "description": "Do not use an extension cord",
+      "category": "safety"
+    },
+    {
+      "page_number": 3,
+      "description": "Keep flammable materials and vapors away from refrigerator",
+      "category": "safety"
+    },
+    {
+      "page_number": 3,
+      "description": "Unplug refrigerator before making repairs or cleaning",
+      "category": "safety"
+    },
+    {
+      "page_number": 5,
+      "description": "Must be properly grounded to a 3-prong outlet",
+      "category": "safety"
+    }
+  ],
+  "cleaning": [
+    {
+      "page_number": 20,
+      "description": "Use soft, clean cloth or sponge with mild detergent mixed with warm water",
+      "category": "cleaning"
+    },
+    {
+      "page_number": 20,
+      "description": "DO NOT use abrasive cloths, paper towels, scrubbing sponges, or steel wool pads",
+      "category": "cleaning"
+    },
+    {
+      "page_number": 20,
+      "description": "DO NOT use window sprays, ammonia, or bleach",
+      "category": "cleaning"
+    },
+    {
+      "page_number": 20,
+      "description": "DO NOT use cleaners containing chlorine on stainless steel surfaces",
+      "category": "cleaning"
+    }
+  ],
+  "maintenance": [
+    {
+      "page_number": 13,
+      "description": "Water filter replacement every 6 months",
+      "category": "maintenance"
+    },
+    {
+      "page_number": 20,
+      "description": "Regular cleaning of interior and exterior surfaces",
+      "category": "maintenance"
+    },
+    {
+      "page_number": 21,
+      "description": "LED lights should be replaced by authorized technician when needed",
+      "category": "maintenance"
+    },
+    {
+      "page_number": 46,
+      "description": "One-year limited warranty for parts and labor",
+      "category": "maintenance"
+    }
+  ]
+}

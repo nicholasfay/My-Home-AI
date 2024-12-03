@@ -13,9 +13,17 @@ export default function Dashboard() {
             <Link href='/dashboard/stove'>
               <li
                 key={0}
-                className='p-4 bg-gray-50 rounded shadow-sm border border-gray-200 font-bold text-gray-900'
+                className='p-4 bg-gray-50 rounded shadow-sm border border-gray-200 font-bold text-gray-900 mb-5'
               >
                 Stove
+              </li>
+            </Link>
+            <Link href='/dashboard/refrigerator'>
+              <li
+                key={0}
+                className='p-4 bg-gray-50 rounded shadow-sm border border-gray-200 font-bold text-gray-900'
+              >
+                Refrigerator
               </li>
             </Link>
           </ul>

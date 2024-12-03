@@ -1,10 +1,10 @@
 import classNames from 'classnames';
 import { loadData, getTextColorFromCategory } from '@/app/dashboard/utils';
 
-export default function StoveDashboard() {
-  const stoves = loadData('./src/app/dashboard/stove/data/');
+export default function RefrigeratorDashboard() {
+  const refrigerators = loadData('./src/app/dashboard/refrigerator/data/');
 
-  const stovesToRender = stoves.map(
+  const refrigeratorsToRender = refrigerators.map(
     ({ metadata, optimal_care, support, safety, cleaning, maintenance }) => {
       const sections = [
         { title: 'Optimal Care', data: optimal_care },
@@ -18,7 +18,7 @@ export default function StoveDashboard() {
         <div className='min-h-screen bg-gray-100 p-6'>
           <div className='max-w-4xl mx-auto bg-white shadow rounded-lg p-8'>
             <h1 className='text-3xl font-bold text-gray-900 mb-6'>
-              Gas Stove: {metadata.model_number}
+              Refrigerator: {metadata.model_number}
             </h1>
 
             <section className='mb-8'>
@@ -63,5 +63,5 @@ export default function StoveDashboard() {
     },
   );
 
-  return stovesToRender;
+  return refrigeratorsToRender;
 }

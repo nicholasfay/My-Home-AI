@@ -1,0 +1,142 @@
+{
+    "metadata": {
+      "model_number": "W11642080B",
+      "manufacturer": "Whirlpool",
+      "category": "gas-cooktop"
+    },
+    
+    "optimal_care": [
+      {
+        "page_number": 6,
+        "description": "Clean food spills containing acids immediately after the range is cool",
+        "category": "care"
+      },
+      {
+        "page_number": 6,
+        "description": "Never use abrasive cleaners or steel wool on stainless steel surfaces",
+        "category": "care"
+      },
+      {
+        "page_number": 6,
+        "description": "Keep burner caps properly positioned and level for optimal performance",
+        "category": "care"
+      },
+      {
+        "page_number": 6,
+        "description": "Always use nonabrasive plastic scrubbing pad for cleaning grates and caps when cool",
+        "category": "care"
+      },
+      {
+        "page_number": 6,
+        "description": "Never reassemble caps on burners while wet",
+        "category": "care"
+      },
+      {
+        "page_number": 7,
+        "description": "Keep oven vent ducts unobstructed at all times",
+        "category": "care"
+      },
+      {
+        "page_number": 6,
+        "description": "Apply light coating of vegetable oil to rack guides if they become difficult to slide",
+        "category": "care"
+      }
+    ],
+  
+    "support": [
+      {
+        "page_number": 17,
+        "description": "Contact information available in Quick Start Guide",
+        "category": "contact"
+      },
+      {
+        "page_number": 17,
+        "description": "Contact qualified technician for persistent gas supply issues",
+        "category": "contact"
+      },
+      {
+        "page_number": 8,
+        "description": "Installation and repairs must be performed by qualified or licensed contractor",
+        "category": "contact"
+      }
+    ],
+  
+    "safety": [
+      {
+        "page_number": 2,
+        "description": "Never operate top surface cooking section unattended",
+        "category": "safety"
+      },
+      {
+        "page_number": 2,
+        "description": "Install anti-tip bracket to floor or wall according to installation instructions",
+        "category": "safety"
+      },
+      {
+        "page_number": 2,
+        "description": "Do not store gasoline or flammable vapors near appliance",
+        "category": "safety"
+      },
+      {
+        "page_number": 3,
+        "description": "Use UL or CSA approved gas detector for leak detection",
+        "category": "emergency"
+      },
+      {
+        "page_number": 2,
+        "description": "If gas smell detected, do not light appliance and call gas supplier from neighbor's phone",
+        "category": "emergency"
+      }
+    ],
+  
+    "cleaning": [
+      {
+        "page_number": 6,
+        "description": "Use soap, water, and soft cloth or sponge for general cleaning",
+        "category": "cleaning"
+      },
+      {
+        "page_number": 6,
+        "description": "Use Affresh® Kitchen and Appliance Cleaner for exterior surfaces",
+        "category": "cleaning"
+      },
+      {
+        "page_number": 6,
+        "description": "Use Affresh® Stainless Steel Cleaner for stainless steel surfaces",
+        "category": "cleaning"
+      },
+      {
+        "page_number": 6,
+        "description": "Use mild detergent for storage drawer cleaning",
+        "category": "cleaning"
+      },
+      {
+        "page_number": 7,
+        "description": "For self-cleaning models, remove all racks and accessories before starting cycle",
+        "category": "cleaning"
+      }
+    ],
+  
+    "maintenance": [
+      {
+        "page_number": 17,
+        "description": "Check gas connections and burner operation monthly",
+        "category": "maintenance"
+      },
+      {
+        "page_number": 15,
+        "description": "Check and adjust flame height every 3-6 months",
+        "category": "maintenance"
+      },
+      {
+        "page_number": 6,
+        "description": "Clean after each use to prevent buildup",
+        "category": "maintenance"
+      },
+      {
+        "page_number": 7,
+        "description": "Run self-cleaning cycle (if equipped) every 6 months or as needed",
+        "category": "maintenance"
+      }
+    ]
+  }
