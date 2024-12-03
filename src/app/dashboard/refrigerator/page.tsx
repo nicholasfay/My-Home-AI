@@ -5,7 +5,10 @@ export default function RefrigeratorDashboard() {
   const refrigerators = loadData('./src/app/dashboard/refrigerator/data/');
 
   const refrigeratorsToRender = refrigerators.map(
-    ({ metadata, optimal_care, support, safety, cleaning, maintenance }) => {
+    (
+      { metadata, optimal_care, support, safety, cleaning, maintenance },
+      index,
+    ) => {
       const sections = [
         { title: 'Optimal Care', data: optimal_care },
         { title: 'Support', data: support },
@@ -15,7 +18,7 @@ export default function RefrigeratorDashboard() {
       ];
 
       return (
-        <div className='min-h-screen bg-gray-100 p-6'>
+        <div className='min-h-screen bg-gray-100 p-6' key={index}>
           <div className='max-w-4xl mx-auto bg-white shadow rounded-lg p-8'>
             <h1 className='text-3xl font-bold text-gray-900 mb-6'>
               Refrigerator: {metadata.model_number}
