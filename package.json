@@ -1,6 +1,7 @@
 {
-  "name": "digital-home-assistant-poc",
-  "version": "0.1.0",
+  "name": "my-home-ai",
+  "version": "1.0.0",
+  "description": "My Home AI",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,21 +9,32 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "free"
+  ],
+  "author": "Nick F",
+  "license": "ISC",
   "dependencies": {
-    "classnames": "^2.5.1",
-    "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "@headlessui/react": "^2.0.3",
+    "@heroicons/react": "^2.1.3",
+    "next": "14.2.3",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.4"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "15.0.3",
-    "husky": "^9.1.7",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
-    "prettier": "^3.4.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

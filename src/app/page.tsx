@@ -1,17 +1,21 @@
-import Link from "next/link";
+import { Container } from "@/components/Container";
+import { Hero } from "@/components/Hero";
+import { SectionTitle } from "@/components/SectionTitle";
+import { Benefits } from "@/components/Benefits";
+import { Cta } from "@/components/Cta";
 
+import { benefitOne, benefitTwo } from "@/components/data";
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 mx-auto flex items-center justify-center p-6">
-      <div className="max-w-4xl mx-auto bg-white shadow rounded-lg p-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">
-            Digital Home Assistant
-        </h1>
-        <p className="text-gray-500 mx-auto mb-6">
-            Welcome to your digital home assistant. Use the navigation above to get started.
-        </p>
-        <Link className="text-blue-500" href="/dashboard">Dashboard</Link>
-      </div>
-    </div>
+    <Container>
+      <Hero />
+      <SectionTitle
+        preTitle="Amazing Benefits"
+        title="Why My Home AI?"
+      ></SectionTitle>
+      <Benefits data={benefitOne} />
+      <Benefits imgPos="right" data={benefitTwo} />
+      <Cta />
+    </Container>
   );
-};
+}
