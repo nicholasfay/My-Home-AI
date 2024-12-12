@@ -3,8 +3,8 @@ import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
 import { Cta } from "@/components/Cta";
+import { benefitOne, benefitTwo, benefitThree } from "@/data/benefits";
 
-import { benefitOne, benefitTwo } from "@/components/data";
 export default function Home() {
   return (
     <Container>
@@ -15,6 +15,7 @@ export default function Home() {
       ></SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
+      <Benefits data={benefitThree} />
       <Cta />
     </Container>
   );
