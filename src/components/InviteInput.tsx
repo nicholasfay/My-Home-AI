@@ -19,12 +19,14 @@ export const InviteInput = ({ inputText }: TInviteInputProps) => {
     formData.append("email", email);
 
     const response = await createInvite(formData);
+    console.log(response)
 
     if (response.success) {
       setStatus("success");
       setMessage("Invite saved successfully");
     } else {
       setStatus("error");
+      setMessage("Error with email invite.");
     }
 
     // Revert styling after 3 seconds
